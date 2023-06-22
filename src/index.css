@@ -1,0 +1,45 @@
+.main_container{
+  margin-top:  80px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.horizontal {
+  align-items: center;
+  background-color: #b8eded;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  width: 500px;
+}
+.vertical{
+  align-items: center;
+    background-color: #b8eded;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 60px;
+
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  height: 500px;
+  width: 500px;
+}
+.box {
+  background-color: #b5dc36;
+  height: 50px;
+  position: relative;
+  width: 50px;
+}
+.container {
+  align-items: center;
+  display: flex;
+}
